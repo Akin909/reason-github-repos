@@ -12,22 +12,28 @@ a {
   color: rebeccapurple;
 }
 
-.app_container {
+.repos_container {
   width: 100%;
   height: 100%;
   display: grid;
   padding: 2rem;
   grid: column 1fr / auto;
   grid-template-areas: 'header header header';
+  background-color: skyblue;
 }
 
 .title {
   display: grid;
   grid-area: header;
   text-align: center;
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
 }
 
 .repo_item {
+  background-color: #fff;
   width: 28rem;
   height: 10rem;
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);

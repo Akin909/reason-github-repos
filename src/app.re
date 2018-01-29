@@ -49,12 +49,10 @@ let make = _children => {
       | None => ReasonReact.stringToElement("Loading...")
       };
     <div className="App">
-      <div className="app_container">
-        <h1 className="title">
-          (ReasonReact.stringToElement("Reason Projects"))
-        </h1>
-        repoItems
-      </div>
+      <h1 className="title">
+        (ReasonReact.stringToElement("Reason Projects"))
+      </h1>
+      <div className="repos_container"> repoItems </div>
     </div>;
   }
 };
